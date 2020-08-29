@@ -30,16 +30,15 @@ def bot():
     print("Today: ")
     print(per1)
 
-    # if per1 != per2:
     numXs = per1 // 4
     numSpaces = 25 - numXs
     c = ("▓" * numXs) + ("░" * numSpaces)
     tweetString = "The president's term is " + str(per1) + "% complete\n" + c
     
     try:
-        api.update_status(tweetString+'\n'+'\n'+'#cyril #ancmustfall #southafrica')
-    except:
-        print('Error')
+        api.update_status(tweetString+'\n'+'\n'+'#cyril #ancmustfall #mashaba #southafrica')
+    except tweepy.TweepError as e:
+        print(e)
 
 def main():
     bot()
