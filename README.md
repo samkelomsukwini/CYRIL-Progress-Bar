@@ -4,7 +4,7 @@ A simple twitter bot that periodically tweets a progress bar of the percentage c
 
 ## Implementation
 
-The bot is just this python script, uploaded to pythonanywhere.com and run once a day as a recurring task. The bot updates [this Twitter account](https://twitter.com/BarPotus).
+The bot is just this python script, uploaded to pythonanywhere.com and run once a day as a recurring task. The bot updates [this Twitter account](https://twitter.com/Ramaprogress).
 
 ## Creating a similar bot
 
