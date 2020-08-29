@@ -1,4 +1,4 @@
-# POTUS-Progress-Bar
+# CYRIL-Progress-Bar
 
 A simple twitter bot that periodically tweets a progress bar of the percentage complete of the current president's term.
 
